@@ -1,0 +1,47 @@
+current directory: /home/mimirandi21/code/labs/sinatra/intro-to-capybara/vendor/bundle/ruby/2.6.0/gems/oj-2.18.5/ext/oj
+/usr/share/rvm/rubies/ruby-2.6.1/bin/ruby -I /usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20201109-13312-vx5g9z.rb extconf.rb
+>>>>> Creating Makefile for ruby version 2.6.1 on x86_64-linux <<<<<
+creating Makefile
+extconf.rb:68: warning: Insecure world writable dir /mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath in PATH, mode 040777
+
+current directory: /home/mimirandi21/code/labs/sinatra/intro-to-capybara/vendor/bundle/ruby/2.6.0/gems/oj-2.18.5/ext/oj
+make "DESTDIR=" clean
+
+current directory: /home/mimirandi21/code/labs/sinatra/intro-to-capybara/vendor/bundle/ruby/2.6.0/gems/oj-2.18.5/ext/oj
+make "DESTDIR="
+compiling cache8.c
+compiling circarray.c
+compiling compat.c
+compiling dump.c
+compiling err.c
+err.c: In function ‘oj_err_raise’:
+err.c:46:1: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+   46 | oj_err_raise(Err e) {
+      | ^~~~~~~~~~~~
+err.c: In function ‘_oj_raise_error’:
+err.c:67:1: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+   67 | _oj_raise_error(const char *msg, const char *json, const char *current, const char* file, int line) {
+      | ^~~~~~~~~~~~~~~
+err.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling fast.c
+compiling hash.c
+compiling hash_test.c
+compiling object.c
+compiling odd.c
+compiling oj.c
+compiling parse.c
+compiling reader.c
+compiling resolve.c
+compiling saj.c
+compiling scp.c
+compiling sparse.c
+compiling strict.c
+compiling val_stack.c
+linking shared-object oj/oj.so
+
+current directory: /home/mimirandi21/code/labs/sinatra/intro-to-capybara/vendor/bundle/ruby/2.6.0/gems/oj-2.18.5/ext/oj
+make "DESTDIR=" install
+/usr/bin/install -m 0755 oj.so ./.gem.20201109-13312-83clv8/oj
